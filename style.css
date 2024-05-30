@@ -1,0 +1,377 @@
+.box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: stretch;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+  background-image: url(./hero.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f8f9f9;
+}
+
+.herosektion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+}
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  bottom: 925px;
+  right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(138, 138, 138, 0.8);
+}
+
+.loggaimg {
+  width: 75px;
+  height: auto;
+  padding-left: 50px;
+}
+
+.logga {
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.meny {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menyval {
+  padding: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cta-ansök {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: large;
+  background-color: #ad76e4;
+  border-radius: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cta-ansök2 {
+  position: absolute;
+  top: 80%;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: larger;
+  background-color: #ad76e4;
+  border-radius: 500px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.rubrik {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 850px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.underrubrik {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.guy {
+  width: 00px;
+  height: auto;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.rubrik {
+  font-size: 70px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.underrubrik2 {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.säljinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #f8f9f9;
+  width: 100%;
+  height: fit-content;
+}
+
+.guy {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  padding-right: 10%;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.rubrik2 {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.underrubrik2 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+}
+
+.brödtext {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+}
+
+.rekommendationer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.rubrik3 {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.parent2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.citat {
+  background-color: rgb(210, 196, 223);
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta {
+  background-color: #f8f9f9;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta-ansök3 {
+  width: 100px;
+  max-width: 200px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #ad76e4;
+  border-radius: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.rubrik4 {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.underrubrik4 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background-image: url(./footer.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f8f9f9;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.loggaFooter {
+  height: 350px;
+  width: auto;
+  padding: 20px;
+}
+
+.vänsterContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.högerContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.footerMeny {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.mail {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.adress {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  padding-left: 50px;
+}
+
+.socMed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.insta {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtube {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instaLogo {
+  width: 40px;
+  height: auto;
+  position: absolute;
+}
+
+.facebookLogo {
+  width: 40px;
+  height: auto;
+  position: absolute;
+}
+
+.youtubeLogo {
+  width: 40px;
+  height: auto;
+  position: absolute;
+}
