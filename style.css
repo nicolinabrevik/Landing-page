@@ -31,7 +31,7 @@
 }
 
 .navbar {
-  height: 75px;
+  height: 90px;
   width: 100%;
   bottom: 925px;
   right: auto;
@@ -48,7 +48,10 @@
 }
 
 .navbar.scrolled {
-  background-color: rgba(138, 138, 138, 0.8);
+  background-color: rgba(255, 255, 255, 0.986);
+}
+.menyval.scrolled {
+  color: black;
 }
 
 .loggaimg {
